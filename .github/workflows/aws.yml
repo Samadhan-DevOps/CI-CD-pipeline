@@ -58,7 +58,7 @@ jobs:
       with:
         aws-access-key-id: ${ AKIAR2LUAIQVA6QQ7XYY }
         aws-secret-access-key: ${ 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 }
-        aws-region: ${ ap-south-1 }
+        aws-region: ${env.ap-south-1 }
 
     - name: Login to Amazon ECR
       id: login-ecr
